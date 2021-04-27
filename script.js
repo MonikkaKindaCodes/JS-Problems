@@ -1,21 +1,12 @@
-//Add 7 function
-const addSeven = function (number) {
-  return number + 7;
-};
+//Find 100 Exercise
+const findHundred = function (a, b) {
+    if (a === 100 || b === 100 || a + b === 100) {
+        return "True";
+    } else {
+        return "False";
+    }
+}
 
-console.log(addSeven(2));
-//Multiply 7 function
-const multiply = function (a, b) {
-  return a * b;
-};
-console.log(multiply(2, 3));
-//Capitalize function
-const capitalize = function (string) {
-  return string.charAt(0).toUpperCase() + string.slice(1);
-};
-console.log(capitalize("Monikka"));
-//Last letter function
-const lastLetter = function (f) {
-  return f.charAt(f.length - 1);
-};
-console.log(lastLetter("abcdefg"));
+console.log(findHundred(0, 100));
+console.log(findHundred(25, 57));
+console.log(findHundred(25, 75));
